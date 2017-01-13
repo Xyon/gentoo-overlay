@@ -26,6 +26,9 @@ RDEPEND=""
 EGIT_SOURCEDIR="${WORKDIR}/gopath/src/github.com/mitchellh/packer"
 S="${EGIT_SOURCEDIR}"
 
+# For an Ansible test case
+USER="${whoami}"
+
 src_unpack() {
 	git-2_src_unpack
 }
