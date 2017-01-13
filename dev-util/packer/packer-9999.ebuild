@@ -9,7 +9,6 @@ HOMEPAGE="http://www.packer.io"
 SRC_URI=""
 
 EGIT_REPO_URI="git://github.com/mitchellh/packer.git"
-EGIT_COMMIT="v${PV}"
 
 inherit git-2 eutils
 
