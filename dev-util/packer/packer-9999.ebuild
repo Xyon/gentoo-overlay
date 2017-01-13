@@ -20,9 +20,7 @@ IUSE=""
 
 DEPEND="
 	>=dev-lang/go-1.1.2
-	dev-vcs/bzr
 	dev-vcs/git
-	dev-vcs/mercurial
 "
 RDEPEND=""
 
